@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		730ED54016B7C8A900F824CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730ED53F16B7C8A900F824CA /* UIKit.framework */; };
+		730ED54216B7C8A900F824CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730ED54116B7C8A900F824CA /* Foundation.framework */; };
+		730ED54416B7C8A900F824CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730ED54316B7C8A900F824CA /* CoreGraphics.framework */; };
+		730ED54A16B7C8A900F824CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 730ED54816B7C8A900F824CA /* InfoPlist.strings */; };
+		730ED54C16B7C8A900F824CA /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 730ED54B16B7C8A900F824CA /* main.mm */; };
+		730ED55016B7C8A900F824CA /* i5loginAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 730ED54F16B7C8A900F824CA /* i5loginAppDelegate.mm */; };
+		730ED55916B7C8A900F824CA /* i5loginViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 730ED55816B7C8A900F824CA /* i5loginViewController.mm */; };
+		730ED55C16B7C8A900F824CA /* i5loginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 730ED55A16B7C8A900F824CA /* i5loginViewController.xib */; };
+		730ED56D16B7C8EC00F824CA /* soapC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 730ED56216B7C8EC00F824CA /* soapC.cpp */; };
+		730ED56E16B7C8EC00F824CA /* soapWEBLOGINSOAP11BindingProxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 730ED56516B7C8EC00F824CA /* soapWEBLOGINSOAP11BindingProxy.cpp */; };
+		730ED56F16B7C8EC00F824CA /* WEBLOGINSOAP11Binding.nsmap in Resources */ = {isa = PBXBuildFile; fileRef = 730ED56816B7C8EC00F824CA /* WEBLOGINSOAP11Binding.nsmap */; };
+		730ED57016B7C8EC00F824CA /* WEBLOGINSOAP11Binding.weblogin_XML.req.xml in Resources */ = {isa = PBXBuildFile; fileRef = 730ED56916B7C8EC00F824CA /* WEBLOGINSOAP11Binding.weblogin_XML.req.xml */; };
+		730ED57116B7C8EC00F824CA /* WEBLOGINSOAP11Binding.weblogin_XML.res.xml in Resources */ = {isa = PBXBuildFile; fileRef = 730ED56A16B7C8EC00F824CA /* WEBLOGINSOAP11Binding.weblogin_XML.res.xml */; };
+		730ED57216B7C8EC00F824CA /* WEBLOGINSOAP11Binding.weblogin.req.xml in Resources */ = {isa = PBXBuildFile; fileRef = 730ED56B16B7C8EC00F824CA /* WEBLOGINSOAP11Binding.weblogin.req.xml */; };
+		730ED57316B7C8EC00F824CA /* WEBLOGINSOAP11Binding.weblogin.res.xml in Resources */ = {isa = PBXBuildFile; fileRef = 730ED56C16B7C8EC00F824CA /* WEBLOGINSOAP11Binding.weblogin.res.xml */; };
+		730ED57616B7CAFE00F824CA /* stdsoap2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 730ED57416B7CAFE00F824CA /* stdsoap2.cpp */; };
+		730ED57A16B7CCB500F824CA /* gsoapios.mm in Sources */ = {isa = PBXBuildFile; fileRef = 730ED57916B7CCB500F824CA /* gsoapios.mm */; };
+		73F830D11A24D274009CD80D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73F830D01A24D274009CD80D /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		730ED53B16B7C8A900F824CA /* i5login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = i5login.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		730ED53F16B7C8A900F824CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		730ED54116B7C8A900F824CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		730ED54316B7C8A900F824CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		730ED54716B7C8A900F824CA /* i5login-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "i5login-Info.plist"; sourceTree = "<group>"; };
+		730ED54916B7C8A900F824CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		730ED54B16B7C8A900F824CA /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		730ED54D16B7C8A900F824CA /* i5login-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "i5login-Prefix.pch"; sourceTree = "<group>"; };
+		730ED54E16B7C8A900F824CA /* i5loginAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = i5loginAppDelegate.h; sourceTree = "<group>"; };
+		730ED54F16B7C8A900F824CA /* i5loginAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = i5loginAppDelegate.mm; sourceTree = "<group>"; };
+		730ED55716B7C8A900F824CA /* i5loginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = i5loginViewController.h; sourceTree = "<group>"; };
+		730ED55816B7C8A900F824CA /* i5loginViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = i5loginViewController.mm; sourceTree = "<group>"; };
+		730ED55B16B7C8A900F824CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/i5loginViewController.xib; sourceTree = "<group>"; };
+		730ED56216B7C8EC00F824CA /* soapC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = soapC.cpp; path = i5login/soapC.cpp; sourceTree = "<group>"; };
+		730ED56316B7C8EC00F824CA /* soapH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = soapH.h; path = i5login/soapH.h; sourceTree = "<group>"; };
+		730ED56416B7C8EC00F824CA /* soapStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = soapStub.h; path = i5login/soapStub.h; sourceTree = "<group>"; };
+		730ED56516B7C8EC00F824CA /* soapWEBLOGINSOAP11BindingProxy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = soapWEBLOGINSOAP11BindingProxy.cpp; path = i5login/soapWEBLOGINSOAP11BindingProxy.cpp; sourceTree = "<group>"; };
+		730ED56616B7C8EC00F824CA /* soapWEBLOGINSOAP11BindingProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = soapWEBLOGINSOAP11BindingProxy.h; path = i5login/soapWEBLOGINSOAP11BindingProxy.h; sourceTree = "<group>"; };
+		730ED56816B7C8EC00F824CA /* WEBLOGINSOAP11Binding.nsmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = WEBLOGINSOAP11Binding.nsmap; path = i5login/WEBLOGINSOAP11Binding.nsmap; sourceTree = "<group>"; };
+		730ED56916B7C8EC00F824CA /* WEBLOGINSOAP11Binding.weblogin_XML.req.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = WEBLOGINSOAP11Binding.weblogin_XML.req.xml; path = i5login/WEBLOGINSOAP11Binding.weblogin_XML.req.xml; sourceTree = "<group>"; };
+		730ED56A16B7C8EC00F824CA /* WEBLOGINSOAP11Binding.weblogin_XML.res.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = WEBLOGINSOAP11Binding.weblogin_XML.res.xml; path = i5login/WEBLOGINSOAP11Binding.weblogin_XML.res.xml; sourceTree = "<group>"; };
+		730ED56B16B7C8EC00F824CA /* WEBLOGINSOAP11Binding.weblogin.req.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = WEBLOGINSOAP11Binding.weblogin.req.xml; path = i5login/WEBLOGINSOAP11Binding.weblogin.req.xml; sourceTree = "<group>"; };
+		730ED56C16B7C8EC00F824CA /* WEBLOGINSOAP11Binding.weblogin.res.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = WEBLOGINSOAP11Binding.weblogin.res.xml; path = i5login/WEBLOGINSOAP11Binding.weblogin.res.xml; sourceTree = "<group>"; };
+		730ED57416B7CAFE00F824CA /* stdsoap2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdsoap2.cpp; sourceTree = "<group>"; };
+		730ED57516B7CAFE00F824CA /* stdsoap2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdsoap2.h; sourceTree = "<group>"; };
+		730ED57816B7CCB500F824CA /* gsoapios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gsoapios.h; path = i5login/gsoapios.h; sourceTree = "<group>"; };
+		730ED57916B7CCB500F824CA /* gsoapios.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = gsoapios.mm; path = i5login/gsoapios.mm; sourceTree = "<group>"; };
+		73F830D01A24D274009CD80D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		730ED53816B7C8A900F824CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730ED54016B7C8A900F824CA /* UIKit.framework in Frameworks */,
+				730ED54216B7C8A900F824CA /* Foundation.framework in Frameworks */,
+				730ED54416B7C8A900F824CA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		730ED53016B7C8A900F824CA = {
+			isa = PBXGroup;
+			children = (
+				730ED57716B7CB1400F824CA /* gSOAP */,
+				730ED54516B7C8A900F824CA /* i5login */,
+				730ED53E16B7C8A900F824CA /* Frameworks */,
+				730ED53C16B7C8A900F824CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		730ED53C16B7C8A900F824CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				730ED53B16B7C8A900F824CA /* i5login.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		730ED53E16B7C8A900F824CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				730ED53F16B7C8A900F824CA /* UIKit.framework */,
+				730ED54116B7C8A900F824CA /* Foundation.framework */,
+				730ED54316B7C8A900F824CA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		730ED54516B7C8A900F824CA /* i5login */ = {
+			isa = PBXGroup;
+			children = (
+				730ED54E16B7C8A900F824CA /* i5loginAppDelegate.h */,
+				730ED54F16B7C8A900F824CA /* i5loginAppDelegate.mm */,
+				730ED55716B7C8A900F824CA /* i5loginViewController.h */,
+				730ED55816B7C8A900F824CA /* i5loginViewController.mm */,
+				730ED55A16B7C8A900F824CA /* i5loginViewController.xib */,
+				73F830D01A24D274009CD80D /* Images.xcassets */,
+				730ED54616B7C8A900F824CA /* Supporting Files */,
+			);
+			path = i5login;
+			sourceTree = "<group>";
+		};
+		730ED54616B7C8A900F824CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				730ED54716B7C8A900F824CA /* i5login-Info.plist */,
+				730ED54816B7C8A900F824CA /* InfoPlist.strings */,
+				730ED54B16B7C8A900F824CA /* main.mm */,
+				730ED54D16B7C8A900F824CA /* i5login-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		730ED57716B7CB1400F824CA /* gSOAP */ = {
+			isa = PBXGroup;
+			children = (
+				730ED57816B7CCB500F824CA /* gsoapios.h */,
+				730ED57916B7CCB500F824CA /* gsoapios.mm */,
+				730ED56216B7C8EC00F824CA /* soapC.cpp */,
+				730ED56316B7C8EC00F824CA /* soapH.h */,
+				730ED56416B7C8EC00F824CA /* soapStub.h */,
+				730ED56516B7C8EC00F824CA /* soapWEBLOGINSOAP11BindingProxy.cpp */,
+				730ED56616B7C8EC00F824CA /* soapWEBLOGINSOAP11BindingProxy.h */,
+				730ED56816B7C8EC00F824CA /* WEBLOGINSOAP11Binding.nsmap */,
+				730ED56916B7C8EC00F824CA /* WEBLOGINSOAP11Binding.weblogin_XML.req.xml */,
+				730ED56A16B7C8EC00F824CA /* WEBLOGINSOAP11Binding.weblogin_XML.res.xml */,
+				730ED56B16B7C8EC00F824CA /* WEBLOGINSOAP11Binding.weblogin.req.xml */,
+				730ED56C16B7C8EC00F824CA /* WEBLOGINSOAP11Binding.weblogin.res.xml */,
+				730ED57416B7CAFE00F824CA /* stdsoap2.cpp */,
+				730ED57516B7CAFE00F824CA /* stdsoap2.h */,
+			);
+			name = gSOAP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		730ED53A16B7C8A900F824CA /* i5login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730ED55F16B7C8A900F824CA /* Build configuration list for PBXNativeTarget "i5login" */;
+			buildPhases = (
+				730ED53716B7C8A900F824CA /* Sources */,
+				730ED53816B7C8A900F824CA /* Frameworks */,
+				730ED53916B7C8A900F824CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = i5login;
+			productName = i5login;
+			productReference = 730ED53B16B7C8A900F824CA /* i5login.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		730ED53216B7C8A900F824CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = i5login;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "idee5 GmbH";
+			};
+			buildConfigurationList = 730ED53516B7C8A900F824CA /* Build configuration list for PBXProject "i5login" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 730ED53016B7C8A900F824CA;
+			productRefGroup = 730ED53C16B7C8A900F824CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				730ED53A16B7C8A900F824CA /* i5login */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		730ED53916B7C8A900F824CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730ED54A16B7C8A900F824CA /* InfoPlist.strings in Resources */,
+				73F830D11A24D274009CD80D /* Images.xcassets in Resources */,
+				730ED55C16B7C8A900F824CA /* i5loginViewController.xib in Resources */,
+				730ED56F16B7C8EC00F824CA /* WEBLOGINSOAP11Binding.nsmap in Resources */,
+				730ED57016B7C8EC00F824CA /* WEBLOGINSOAP11Binding.weblogin_XML.req.xml in Resources */,
+				730ED57116B7C8EC00F824CA /* WEBLOGINSOAP11Binding.weblogin_XML.res.xml in Resources */,
+				730ED57216B7C8EC00F824CA /* WEBLOGINSOAP11Binding.weblogin.req.xml in Resources */,
+				730ED57316B7C8EC00F824CA /* WEBLOGINSOAP11Binding.weblogin.res.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		730ED53716B7C8A900F824CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730ED54C16B7C8A900F824CA /* main.mm in Sources */,
+				730ED55016B7C8A900F824CA /* i5loginAppDelegate.mm in Sources */,
+				730ED55916B7C8A900F824CA /* i5loginViewController.mm in Sources */,
+				730ED56D16B7C8EC00F824CA /* soapC.cpp in Sources */,
+				730ED56E16B7C8EC00F824CA /* soapWEBLOGINSOAP11BindingProxy.cpp in Sources */,
+				730ED57616B7CAFE00F824CA /* stdsoap2.cpp in Sources */,
+				730ED57A16B7CCB500F824CA /* gsoapios.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		730ED54816B7C8A900F824CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				730ED54916B7C8A900F824CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		730ED55A16B7C8A900F824CA /* i5loginViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				730ED55B16B7C8A900F824CA /* en */,
+			);
+			name = i5loginViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		730ED55D16B7C8A900F824CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		730ED55E16B7C8A900F824CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		730ED56016B7C8A900F824CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "i5login/i5login-Prefix.pch";
+				INFOPLIST_FILE = "i5login/i5login-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		730ED56116B7C8A900F824CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "i5login/i5login-Prefix.pch";
+				INFOPLIST_FILE = "i5login/i5login-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		730ED53516B7C8A900F824CA /* Build configuration list for PBXProject "i5login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730ED55D16B7C8A900F824CA /* Debug */,
+				730ED55E16B7C8A900F824CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		730ED55F16B7C8A900F824CA /* Build configuration list for PBXNativeTarget "i5login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730ED56016B7C8A900F824CA /* Debug */,
+				730ED56116B7C8A900F824CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 730ED53216B7C8A900F824CA /* Project object */;
+}
